@@ -1,0 +1,5 @@
+{
+  "mongoURI": "mongodb+srv://vishal9876:Vish1234@cluster0.bstab.mongodb.net/test",
+  "jwtSecret": "jwtSecretToken",
+  "jwtExpiration": 360000
+}
