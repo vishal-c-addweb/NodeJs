@@ -1,7 +1,7 @@
 import { Document, Model, model, Schema } from "mongoose";
 
 /**
- * Interface to model the Student Schema for Typescript
+ * Interface to model the Department Schema for Typescript
  * @param departmentName :string
  */
 

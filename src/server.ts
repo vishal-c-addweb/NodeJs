@@ -9,6 +9,9 @@ import user from "./routes/api/user";
 import profile from "./routes/api/profile";
 import employee from "./routes/api/employee";
 import department from "./routes/api/department";
+import student from "./routes/api/student";
+import { seedDepartment } from "./seed/department-seeder";
+import { seedEmployee } from "./seed/employee-seeder";
 
 const app = express();
 
@@ -32,6 +35,7 @@ app.use("/api/user", user);
 app.use("/api/profile", profile);
 app.use("/api/employee", employee);
 app.use("/api/department", department);
+app.use("/api/student", student);
 
 const port = app.get("port");
 const server = app.listen(port, () =>

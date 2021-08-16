@@ -1,5 +1,4 @@
-
-//response codes
+/** response codes */
 const responsecode = { 
     Success : <number> 200,
     Created : <number> 201,
@@ -11,7 +10,6 @@ const responsecode = {
     Conflict: <number> 409,
     Internal_Server_Error: <number> 500,
     Service_Unavailabel: <number> 503
-
 }
 
 export default responsecode;
